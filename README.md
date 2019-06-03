@@ -3,7 +3,7 @@ working though violent python, this is a collection of whatever i end up buildin
 
 Installing
 
-install python3
+install python3,
 install virtualenv, 
 git clone this, 
 cd to directory, 
