@@ -18,6 +18,6 @@ cd to directory,
 create the venv,  
 ```$ virtualenv recontools3```  
 active the venv  
-```$ source /path/to/ENV/bin/activate ```  
+```$ source /path/to/recontools3/bin/activate ```  
 then type  
 ```$ pip install -r requirements.txt ```  
