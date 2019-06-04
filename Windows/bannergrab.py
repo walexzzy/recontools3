@@ -1,6 +1,11 @@
 import socket
 import os
 import sys
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("-H", dest="tgtHost", type=str, help="specify target host minus the last octet i.e. x.x.x.")
+args = parser.parse_args()
+tgtHost = args.tgtHost
 def retBanner(ip, port):
     try:
         socket.setdefaulttimeout(2)
@@ -28,7 +33,7 @@ def main():
         exit(0)
         portlist = [21,22,25,80,110,443]
         for x in range(147, 150):
-            ip ='192.168.95.' + str(x)
+            ip ='tgtHost' + str(x)
             for port in portList:
                 banner = retBanner(ip, port)
                 if banner:
