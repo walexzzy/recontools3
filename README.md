@@ -12,9 +12,7 @@ then
 install virtualenv,  
 ```$ pip install virtualenv ```  
 git clone this,  
-```$ git clone https://github.com/incredincomp/recontools3.git ```  
-cd to directory,  
-```$ cd recontools3```  
+```$ git clone https://github.com/incredincomp/recontools3.git ```    
 create the venv,  
 ```$ virtualenv recontools3```  
 active the venv  
